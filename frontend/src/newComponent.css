@@ -1,0 +1,74 @@
+/* Base styles */
+body {
+    background-color: #121212; /* Darker background for better contrast */
+    color: #E0E0E0; /* Soft light text color for readability */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Link styles */
+  a {
+    color: #BB86FC; /* Bright color for links to stand out */
+    text-decoration: none; /* Remove underline */
+  }
+  a:hover {
+    color: #3700B3; /* Darker shade on hover for interaction feedback */
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Container for content */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #1E1E1E; /* Slightly lighter than body for layering effect */
+    border-radius: 8px; /* Soft rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Subtle shadow for depth */
+  }
+  
+  /* Header styles */
+  .header {
+    background: #333; /* Dark shade for header */
+    color: #FFF;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 6px; /* Rounded corners for the header */
+    margin-bottom: 20px; /* Space between header and content */
+  }
+  
+  /* NewsFeed list styles */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    background: #242424; /* Even lighter for contrast against container */
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 6px; /* Consistent rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  li:hover {
+    background: #2E2E2E; /* Slightly lighter on hover */
+  }
+  
+  /* Typography for better readability */
+  h1, h2 {
+    color: #FFFFFF;
+  }
+  p {
+    font-size: 16px; /* Slightly larger font size for readability */
+  }
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .container, .header {
+      padding: 10px;
+    }
+  }
+  
